@@ -24,19 +24,19 @@
             </div>
         </div>
         <div class="account">
-            <h3>My Account</h3>
+            <h3>Quick Links</h3>
             <ul>
-                <li>Account</li>
-                <li>Order</li>
-                <li>Cart</li>
-                <li>Shipping</li>
-                <li>return</li>
+                <li>Aims & Values</li>
+                <li>Admissions</li>
+                <li>Health Care</li>
+                <li>Boarding</li>
+                <li>Our Contact</li>
             </ul>
         </div>
         <div class="pages">
-            <h3>Pages</h3>
+            
             <ul>
-                <li>Home</li>
+                <li>Scholarships</li>
                 <li>About</li>
                 <li>Contact</li>
                 <li>Terms & Conditions</li>

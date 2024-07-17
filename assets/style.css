@@ -1,14 +1,20 @@
 * {
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
    
 }
 
 header {
-    background: #3d179c;
-    width: 100%;
+    background: #fff;
     display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: grey;
    
 }
 
@@ -17,28 +23,206 @@ header > img {
     height: 70px;
 }
 
-
-header > nav > ul {
-    display: flex;
+header > h1 {
+    font-size: 15px;
+    margin-left: -83px;
+    margin-bottom: 10px;
    
 }
 
-header > nav > ul > li {
+header > nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-right: 220px;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 14px;
+   
+}
+
+header > nav > ul > li > a {
     text-decoration: none;
+    color: gray;
 }
 
 header  > .ham {
-    width: 23px;
-    height: 23px; 
+    display: flex;
+    gap: 3px;
+}
+
+header  > .ham > h1 {
+   font-size: 14px;
+   margin-right: 60px;
+}
+
+header  > .ham > img {
+    width: 12px;
+}
+
+main {
+    padding: 30px 40px;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+main > .contant {
+    padding: 10px 20px;
+}
+
+main > .contant > h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: grey;
+    font-weight: 200;
+}
+
+main > .contant > .form {
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main > .contant > .form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+main > .contant > .form > form > input {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 35%;
+   
+}
+
+main > .contant > .form > form > span {
+    margin-left: 35%;
+    font-size: 12px;
+}
+
+main > .contant > .form > form > textarea {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    max-width: 350px;
+    margin-top: 20px;
+    resize: none;
+    margin-left: 35%;
+   
+}
+
+main > .contant > .form > form > button {
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 45%;
+    background: #010f1c;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.contain {
+    padding: 10px 20px;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+.contain > .about > h1 {
+    margin-bottom: 40px;
 }
 
 
 
+.contain > .about > img {
+    width: 100%;
+    height: 20%;
+    margin: 10px 5px;
+}
 
+.contain > .details {
+    padding: 10px 20px; 
+}
 
+.contain > .details > h2, p {
+   padding: 10px 20px; 
+   
+}
 
+.image > img {
+    width: 100%;
+    height: 580px;   
+}
 
+.content {
+    display: flex;
+    margin: 40px 40px;
+}
 
+.content > .intro {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.content > .intro h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.content > .intro h1 {
+    color: rgb(148, 4, 4);
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.content > .intro p {
+    font-size: 17px;
+}
+
+.content > .principal {
+    padding: 10px 15px;
+}
+
+.content > .principal > img {
+    margin: 190px 130px;
+    width: 250px;
+}
+
+.image2 > img {
+    width: 100%;
+    height: 60%;
+    margin: 10px 5px;
+    position: absolute;
+   
+}
+
+.image2 > .deta {
+   position: relative;
+   left: 150px;
+   top: 120px;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+
+.image2 > .deta > p {
+   font-size: 15px;
+   margin-left: 30px;
+  
+}
 
 
 
@@ -49,9 +233,13 @@ header  > .ham {
 
 
 footer {
-    background: rgb(45, 211, 64);
+   
+    background: black;
     padding: 30px 40px;
-    width: 100%;
+    width: 113.5%;
+    color: #fff;
+    margin-left: -80px;
+    margin-top: 320px;
 
 }
 
@@ -59,15 +247,29 @@ footer > .container {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 footer > .container > .about {
-    max-width: 30%;
+    max-width: 20%;
 }
 
-footer > .container > .about .detail p {
+footer > .container > .about >.detail p {
     margin-top: 20px;
     font-size: 16px;
-    color: #9a9a9a;
+}
 
+footer > .container > .account {
+    margin-left: -40px;
+    margin-top: 30px;
+ 
+}
+
+footer > .container > .account ul {
+    gap: 5px;
+}
+
+footer > .container > .pages {
+   margin-right: 120px;
+   margin-top: 30px;
 }
