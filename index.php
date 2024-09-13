@@ -1,5 +1,6 @@
 <?php
-    include_once('assets/header.php');
+    $pageTitle = 'Home page';
+    include_once('assets/header.php');   
 ?>
     <main>
         <div class="image">

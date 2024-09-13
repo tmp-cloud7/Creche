@@ -1,4 +1,5 @@
 <?php
+     $pageTitle = 'About Page';
     require('assets/header.php');
 ?>
     <main>

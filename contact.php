@@ -1,5 +1,6 @@
 <?php
-    require_once('assets/header.php');
+    $pageTitle = 'Contact Page';
+    require_once('assets/header.php');   
 ?>
     <main>
         <h1>Contact Us</h1>       
