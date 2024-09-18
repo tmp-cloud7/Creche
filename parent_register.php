@@ -185,7 +185,7 @@
 
         <div class="row ">
             <div class="col">
-                <input type="submit" value="Register Student" class="form-control btn btn-primary"/>
+                <input type="submit" value="Register" class="form-control btn btn-primary"/>
             </div>
         </div>
     </form>

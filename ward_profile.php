@@ -57,7 +57,7 @@
                     <td><?= $student_data['department']; ?></td>
                 </tr>
                 <tr>
-                    <td><a href="ward_profile.php?sid=<?= $student_data['student_id'] ?>" class="btn btn-primary">Edit Profile</a></td>
+                    <td><a href="edit_ward.php?sid=<?= $student_data['student_id'] ?>" class="btn btn-primary">Edit Profile</a></td>
                     <td scope="row"><a href="delete_ward.php?sid=<?= $student_data['student_id'] ?>" class="btn btn-danger">Delete Profile</a></td>
                     
                 </tr>

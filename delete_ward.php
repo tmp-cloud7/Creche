@@ -8,6 +8,11 @@
         header("Location: parent_login.php");
     }
 
+    // Check if ward is selected
+    if (!isset($_GET['sid'])) {
+        header("Location: parent_ward_display.php");
+    }
+
     $student_id = $_GET['sid'];
     $query = "SELECT * FROM students WHERE  student_id = $student_id lIMIT 1";
     $result = mysqli_query($conn, $query);
