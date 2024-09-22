@@ -23,8 +23,7 @@
                 <?php if(isset($_SESSION['parent_id'])) {?>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="dashboard.php">Dashboard</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="parent_ward_display.php">My Wards</a></li>
-                        
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="parent_ward_display.php">My Wards</a></li>    
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="student_registration.php">Register Student</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="logout.php">Logout</a></li>
                     </ul>
