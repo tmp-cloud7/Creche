@@ -33,7 +33,7 @@
        
 
         <div class="deta">
-           <h1>Watch our School Tour</h1>
+           <h1>Watch our School</h1>
            <p>Our Study Environment is conducive and homely for our students learning activities</p>
         </div>
         </div>
