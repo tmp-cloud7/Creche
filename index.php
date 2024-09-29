@@ -19,7 +19,7 @@
             <p>The overall school life is one of a true spirit of community and loyalty. We understand that everyone has a voice and that together, we are a formidable force and agent of transformation.</p>
             <p>We are excited about the next phase we embark on the 20th anniversary of this great institution. I assure you that Greenville International School is a school worthy of your consideration and welcome you to visit our website to get to know more about what we offer. It gives me great pleasure to invite you to seek an appointment with me or other members of staff to discuss the educational goals of your child.  </p>
             <p>Welcome on board!</p>
-            <p>Kevin Donnelly</p>
+            <p>Tayo Popoola</p>
 
         </div>
         <div class="principal">
