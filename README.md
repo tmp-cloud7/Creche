@@ -28,7 +28,7 @@ Uses uploaded images for profiles and clean visual elements for better interacti
 Displays all registered wards and related details in a clean, responsive layout.
 
 📱 Responsive Design
-Optimized for desktop and mobile using HTML, CSS, and lightweight JS.
+Optimized for desktop and mobile using HTML, CSS, JS & Bootstrap.
 
 
 🧠 Tech Stack
