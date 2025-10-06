@@ -1,6 +1,6 @@
 🎓 School Management System — PHP CRUD Application
 
-A lightweight PHP-based CRUD web application designed to manage parent and ward (student) records efficiently.
+A hands-on bootcamp project built to demonstrate the fundamentals of web development with PHP and MySQL.
 The system provides a simple dashboard for parents to register, view, and update information about their wards while offering administrators control over records and operations.
 
 🧩 Overview
@@ -41,10 +41,12 @@ Optimized for desktop and mobile using HTML, CSS, JS & Bootstrap.
 | **Server**   | XAMPP (Localhost)        |
 
 
-🧑‍💻 Author: Tayo Popoola | Full-stack Developer | Laravel • React • MySQL
+🏁 Conclusion
 
-📧 tayopopoola92@gmail.com
+This PHP CRUD application is a practical, beginner-friendly project created during a web development bootcamp.
+It highlights the essential skills needed to build dynamic web systems — from form handling and authentication to database connectivity and UI design.
 
-💼 www.linkedin.com/in/tayo-p-16a138275
+The project can easily be extended with features like admin panels, email notifications, or API integration, making it an ideal stepping stone toward full-stack development.
 
-🌐 https://lucent-gnome-a196b3.netlify.app
+
+
