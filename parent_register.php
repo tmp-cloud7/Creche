@@ -114,7 +114,7 @@
 
 ?>
 
-<main class="m-5 p-5" style="background: gray;">
+<!-- <main class="m-5 p-5" style="background: gray;">
     <form autocomplete="off" method="post" action="" style="display: flex; gap: 20px; flex-flow: column">
 
         <h1>Guardian Biodata</h1>
@@ -189,4 +189,93 @@
             </div>
         </div>
     </form>
+</main> -->
+<main class="py-5 bg-light">
+  <div class="container">
+    <div class="mx-auto p-4 bg-white shadow rounded" style="max-width: 900px;">
+      <h1 class="text-center text-primary mb-4">Guardian Biodata</h1>
+
+      <form method="post" autocomplete="off" novalidate>
+        <!-- Full Name -->
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="First name" name="g_firstname" value="<?= $g_firstname ?>" required>
+          </div>
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Middlename (Optional)" name="g_middlename" value="<?= $g_middlename ?>">
+          </div>
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Surname" name="g_surname" value="<?= $g_surname ?>" required>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <input type="tel" class="form-control" placeholder="Phone Number" name="g_phone1" value="<?= $g_phone1 ?>" required>
+            <span class="text-danger small"><?= $phone1Error ?></span>
+          </div>
+          <div class="col-md-4">
+            <input type="tel" class="form-control" placeholder="Alt Phone Number (Optional)" name="g_phone2" value="<?= $g_phone2 ?>">
+            <span class="text-danger small"><?= $phone2Error ?></span>
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control" placeholder="E-Mail Address" name="g_email" value="<?= $g_email ?>" required>
+          </div>
+        </div>
+
+        <!-- Passwords -->
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="password" class="form-control" placeholder="Password" name="password" value="<?= $password ?>" required>
+            <span class="text-danger small"><?= $passError ?></span>
+          </div>
+          <div class="col-md-6">
+            <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword" value="<?= $cpassword ?>" required>
+            <span class="text-danger small"><?= $passError ?></span>
+          </div>
+        </div>
+
+        <!-- Gender & Marital Status -->
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label class="form-label fw-semibold d-block">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="g_gender" value="Male" id="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="g_gender" value="Female" id="female" checked>
+              <label class="form-check-label" for="female">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="g_gender" value="Others" id="others">
+              <label class="form-check-label" for="others">Others</label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label fw-semibold">Marital Status:</label>
+            <select name="g_maritalstatus" class="form-select" required>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+              <option value="Divorced">Divorced</option>
+              <option value="Seperated">Separated</option>
+              <option value="Widowed">Widowed</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="mb-3">
+          <textarea name="guardian_address" rows="3" class="form-control" placeholder="Home Address"><?= $guardian_address ?></textarea>
+        </div>
+
+        <!-- Submit -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-5 py-2">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </main>

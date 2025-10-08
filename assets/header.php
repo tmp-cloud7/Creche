@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-primary-subtle bg-body-tertiary sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">Cresh</a>
+            <a class="navbar-brand" href="index.php">Greenville</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
