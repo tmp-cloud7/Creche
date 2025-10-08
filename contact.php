@@ -2,9 +2,9 @@
     $pageTitle = 'Contact Page';
     require_once('assets/header.php');   
 ?>
-    <main>
+    <!-- <main>
         <h1>Contact Us</h1>       
-    <main>
+    <main> -->
     <?php
            $name = $email = $subject ="";
            $nameError = $emailError =  $subjectError ="";
@@ -31,7 +31,68 @@
 
     ?>
 
-        <!-- <div class="contant">
+    <div class="container my-5">
+  <div class="contant text-center">
+    <h1 class="mb-4 text-primary">Contact Us</h1>
+    
+    <div class="form mx-auto" style="max-width: 600px;">
+      <form action="" method="POST" class="p-4 border rounded-3 shadow-sm bg-light">
+
+        <div class="mb-3 text-start">
+          <input 
+            type="text" 
+            name="Name" 
+            value="<?= $name?>" 
+            placeholder="Enter Your Full Name" 
+            autocomplete="off" 
+            class="form-control"
+          >
+          <span class="text-danger small"><?= $nameError?></span>
+        </div>
+
+        <div class="mb-3 text-start">
+          <input 
+            type="email" 
+            name="E-mail" 
+            value="<?= $email?>" 
+            placeholder="Enter Your E-mail" 
+            autocomplete="off" 
+            class="form-control"
+          >
+          <span class="text-danger small"><?= $emailError?></span>
+        </div>
+
+        <div class="mb-3 text-start">
+          <input 
+            type="text" 
+            name="Subject" 
+            value="<?= $subject?>" 
+            placeholder="Enter Your Subject" 
+            autocomplete="off" 
+            class="form-control"
+          >
+          <span class="text-danger small"><?= $subjectError?></span>
+        </div>
+
+        <div class="mb-3 text-start">
+          <textarea 
+            name="Message" 
+            placeholder="Your Message" 
+            autocomplete="off" 
+            class="form-control" 
+            rows="4"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- 
+        <div class="contant">
+             <h1>Contact Us</h1> 
             <div class="form">
                 <form action="" method="POST">
                     <input type="text" name= "Name" value="<?= $name?>" placeholder="Enter Your Full Name" autocomplete="off"><br><span><?= $nameError?></br></span>
@@ -46,32 +107,6 @@
         </div> -->
 
 
-    <main class="py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-        <h1 class="fw-bold text-primary">About Us</h1>
-        <img src="slide-4.jpg" alt="About Image" class="img-fluid rounded shadow mt-3" style="max-height: 400px; object-fit: cover;">
-        </div>
-
-        <div class="row justify-content-center">
-        <div class="col-md-8">
-            <h2 class="text-secondary">Vision</h2>
-            <p>
-            To be the secondary school of first choice for families within Lagos and beyond — known as a purposeful and effective seat of learning, a warm and caring community where all attain their academic and personal best within a state-of-the-art campus.
-            </p>
-
-            <h2 class="text-secondary mt-4">Our Mission</h2>
-            <p>
-            To establish, manage, and administer a model private school in all spheres with a vision for a greater tomorrow, through a broad, balanced, and functional education that is all about success in life.
-            </p>
-        </div>
-        </div>
-    </div>
-    </main>
-
-<?php require('assets/footer.php'); ?>
-</body>
-</html>
 
     <?php
     require_once('assets/footer.php');
